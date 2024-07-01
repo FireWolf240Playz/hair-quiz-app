@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addAnswer } from "../store/quizSlice";
 import { questions } from "../data/questions";
 import QuestionContent from "../components/QuestionContent";
@@ -10,7 +10,6 @@ function QuestionPage() {
   const { id } = useParams();
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const answers = useSelector((state) => state.quiz.answers);
 
   const questionIndex = questions.findIndex(
     (question) => question.id === parseInt(id, 10)

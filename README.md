@@ -17,15 +17,7 @@ Responsive Design: Optimized for both desktop and mobile devices.
 
 Local Storage: Quiz answers and wishlist items are stored in local storage to persist user data.
 
-Demo https://hair-quiz-app.vercel.app/home
+Check out the live demo: Hair Care Quiz - //hair-quiz-app.vercel.app/home
 
-Check out the live demo: Hair Care Quiz
-
-
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -am 'Add a new feature').
-Push to the branch (git push origin feature/your-feature).
-Create a new Pull Request.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
